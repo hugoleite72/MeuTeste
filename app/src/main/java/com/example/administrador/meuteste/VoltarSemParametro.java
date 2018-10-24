@@ -79,10 +79,10 @@ public class VoltarSemParametro extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 new DownloadJsonAsyncTask()
-                        .execute("http://nli.univale.br/apicliente/api/cliente/retornaclientes?tipo=json");
-                //"http://10.0.2.2/apicliente/api/cliente/retornaclientes?tipo=json");
+                        .execute("http://192.168.181.134/apicliente/api/cliente/retornaclientes?tipo=json");
+                //"http://192.168.181.134/apicliente/api/cliente/retornaclientes?tipo=json");
                 //"http://10.0.2.2:3630/api/cliente/retornaclientes?tipo=json");
-
+                //"http://nli.univale.br/apicliente/api/cliente/retornaclientes?tipo=json"
             }
         });
         listaclientes.setOnItemClickListener(new ItemClickedListener());
