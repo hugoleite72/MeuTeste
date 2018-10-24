@@ -90,7 +90,7 @@ public class VoltarSemParametro extends AppCompatActivity {
 
     class DownloadJsonAsyncTask extends AsyncTask<String, Void, List<Pessoa>> {
         ProgressDialog dialog;
-
+//commit
         //Exibe pop-up indicando que está sendo feito o download do JSON
         @Override
         protected void onPreExecute() {
